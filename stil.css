@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: gray;
+}
+
+#hersey {
+	width: 800px;
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+.yanbar {
+	width: 200px;
+	height: 1040px;
+	background: black;
+	display: inline-block;
+	float: left;
+
+
+}
+
+.yanbar ul {
+	list-style-type: none;
+	padding: 20px;
+}
+
+.yanbar ul li {
+	border: 1px solid white;
+	line-height: 50px;
+	color: white;
+	text-align: center;
+	margin-bottom: 20px;
+	background: black;
+}
+
+.yanbar ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.yanbar ul li a:hover {
+	color: black;
+	background: white;
+	border: 1px solid black;
+	box-shadow: 1px 1px 10px white;
+}
+
+
+.kutu {
+	float: left;
+	width: 586px;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	background: black;
+}
+
+
+
+.baslangic {
+	background: black;
+	color: white;
+}
+
+.baslangic h1 {
+	text-align: center;
+}
+
+.baslangic h1:hover {
+	text-decoration: underline;
+}
+
+.resim {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background: black;
+	border: 3px solid white;
+	margin: auto;
+}
+
+
+
+.hakkinda {
+	margin-top: 50px;
+	color: white;
+
+
+
+}
+
+.iletisim {
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+}
+
+.iletisim a {
+	color: white;
+}
